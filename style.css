@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    font-family: 'poppins', 'sans-serif';
+}
+
+body{
+    /* Light Mode */
+    color: aliceblue;
+    color: black;
+
+    /* Dark Mode */
+
+    /* background-color: #212121;
+    color: aliceblue; */
+}
+
+img{
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    /* color: white; */
+    color: black;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    /* border: 2px,solid,red; */
+    padding: 10px 20px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav i{
+    width: 50px;
+}
+
+nav img{
+    width: 50px;
+}
+
+.navRight i{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.navRight img{
+    width: 25px;
+    margin-right: 25px;
+}
+
+.navLeft i{
+    width: 25px;
+}
+
+.navLeft img{
+    width: 25px;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+#ytLogo{
+    font-size: 25px;
+    /* padding-right: 5px; */
+}
+
+.navRight .userImage{
+    border-radius: 50%;
+}
+
+.navMid{
+    /* border: 2px,solid,green; */
+    width: 45%;
+}
+
+.searchBox{
+    width: 80%;
+    padding-left: 8px;
+    border: 1px, solid, grey;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.searchBox i{
+    width: 50px;
+    padding: 6px 8px 8px 16px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgba(128, 128, 128,0.3);
+}
+
+.searchIcon{
+    height: 30px;
+    width: 30px;
+}
+
+.searchBox input{
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    padding: .4rem;
+    outline: none;
+    background-color: transparent;
+    /* margin-right: 10px; */
+}
+
+.micIcon{
+    height: 32px;
+    width: 32px;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    padding: 8px;
+    /* background-color: rgba(128, 128, 128,0.6); */
+}
+
+.micDiv{
+    /* border: 2px solid green; */
+    padding-left: 2px;
+    /* padding-top: 2px; */
+}
+
+
+/* Navbar Ends */
+
+
+/* Sidebar Starts Here */
+
+.sidebar{
+    /* border: 2px solid red; */
+    width: 18%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    padding-top: 55px;
+    padding-left: 5px;
+    font-size: 60%;
+}
+
+.sidebar a img{
+    /* height: 32px; */
+    /* padding: 5px; */
+    width: 20px;
+    padding-right: 2px;
+}
+
+.sidebar a{
+    margin-bottom: 2px;
+    padding: 4px;
+}
+
+.sidebarUpper a:first-child{
+    /* border: 2px solid crimson; */
+    border-radius: 10px;
+    /* background-color: #2e2e2e; */
+    background-color: wheat;
+}
+
+.sidebar a:hover{
+    /* border: 2px solid crimson; */
+    border-radius: 10px;
+    /* background-color: #2e2e2e; */
+    background-color: wheat;
+}
+
+.sidebarLower #you{
+    font-size: 20px;
+}
+
+
+
+/* Main Section */
+
+.mainContainer{
+    /* border: 2px solid red; */
+    margin-left: 18%;
+    padding: 2% 3% 2% 3%;
+    /* position: relative; */
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    /* margin-right: 2%; */
+    /* z-index: 0; */
+}
+
+.card{
+    /* border: 2px solid green; */
+    width: 320px;
+    /* height: 320px; */
+    margin: 16px;
+    margin-bottom: 20px;
+}
+
+.thumbnailImage{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.logoContainer .channelLogo{
+    position: relative;
+    top: -10px;
+    width: 30px;
+    margin: 4px;
+    border-radius: 50%;
+}

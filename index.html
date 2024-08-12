@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ca90af9d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="d-flex">
+
+        <div class="navLeft d-flex"">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-brands fa-youtube", id="ytLogo"></i>
+             <!-- <img src="/images/yticon.jpg" alt="" class="ytIcon"> -->
+        </div>
+
+        <div class="navMid d-flex"">
+            <div class="searchBox d-flex">
+                <input type="text", placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+            </div>
+            <div class="micDiv d-flex">
+                <i class="fa-solid fa-microphone micIcon"></i>
+            </div>
+        </div>
+
+        <div class="navRight d-flex"">
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-regular fa-circle-user userImage"></i>
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <!-- <img src="/images/userimg.jpg" alt="Log In" class="userImage"> -->
+        </div>
+
+    </nav>
+    <!-- Sidebar starts here -->
+     <div class="sidebar">
+        <div class="sidebarUpper">
+
+            <a href="" id="home" class="sidebarIcon d-flex"><img src="/images/homeIcon.png" alt="Home"><p>Home</p></a>
+
+            <a href="" id="shorts" class="sidebarIcon d-flex"><img src="/images/shortsIcon.png" alt="Shorts"><p>Shorts</p></a>
+
+            <a href="" id="subscriptions" class="sidebarIcon d-flex"><img src="/images/subscriptionIcon.png" alt="Subscription"><p>Subscription</p></a>
+
+        </div>
+
+        <hr>
+
+        <!-- <div class="sidebarLower d-flex">
+            <a href="" id="you">You<i class="fa-solid fa-caret-right"></i></a>
+        </div> -->
+
+        <div class="sidebarLower">
+
+            <a href="" id="yourChannel" class="sidebarIcon d-flex"><img src="/images/user-channel.png" alt="Your Channel"><p>Your Channel</p></a>
+
+            <a href="" id="history" class="sidebarIcon d-flex"><img src="/images/history.png" alt="History"><p>History</p></a>
+
+            <a href="" id="playlists" class="sidebarIcon d-flex"><img src="/images//playlist.png" alt="Your V"><p>Playlists</p></a>
+
+            <a href="" id="yourVideos" class="sidebarIcon d-flex"><img src="/images//your videos.png" alt="Your V"><p>Your Videos</p></a>
+
+            <a href="" id="yourMovies" class="sidebarIcon d-flex"><img src="/images/your movies.png" alt="Your V"><p>Your Movies</p></a>
+
+            <a href="" id="watchLater" class="sidebarIcon d-flex"><img src="/images/watch later.png" alt="Your V"><p>Watch Later</p></a>
+
+            <a href="" id="likedVideos" class="sidebarIcon d-flex"><img src="/images/liked videos.png" alt="Your V"><p>Liked Videos</p></a>
+
+        </div>
+     </div>
+
+     <!-- Main Section -->
+
+    <div class="mainContainer d-flex">
+        <div class="card">
+            <div class="thumbnailContainer">
+                <img class="thumbnailImage" src="/images/thumbnail1.webp" alt="" class="thumbnail">
+            </div>
+            <div class="detailsContainer d-flex">
+                <div class="logoContainer">
+                    <img src="/images/channel1.jpg" alt="" class="channelLogo">
+                </div>
+                <div class="details">
+                    <h4>iPhone vs Android in 2024...</h4>
+                    <p>Utsav Techie</p>
+                    <p>14K views • 5 hours ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="thumbnailContainer">
+                <img class="thumbnailImage" src="/images/thumbnail2.webp" alt="" class="thumbnail">
+            </div>
+            <div class="detailsContainer d-flex">
+                <div class="logoContainer">
+                    <img src="/images/channel2.jpg" alt="" class="channelLogo">
+                </div>
+                <div class="details">
+                    <h4>2024 Tata Curvv EV - Tata's Desi Urus</h4>
+                    <p>Carsio</p>
+                    <p>18K views • 1 day ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="thumbnailContainer">
+                <img class="thumbnailImage" src="/images/thumbnail3.webp" alt="" class="thumbnail">
+            </div>
+            <div class="detailsContainer d-flex">
+                <div class="logoContainer">
+                    <img src="/images/channel3.jpg" alt="" class="channelLogo">
+                </div>
+                <div class="details">
+                    <h4>5 Camera Features Every Smartphone Needs in 2024</h4>
+                    <p>Kunal Malhotra</p>
+                    <p>11K views • 1 day ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="thumbnailContainer">
+                <img class="thumbnailImage" src="/images/thumbnail4.webp" alt="" class="thumbnail">
+            </div>
+            <div class="detailsContainer d-flex">
+                <div class="logoContainer">
+                    <img src="/images/channel4.jpg" alt="" class="channelLogo">
+                </div>
+                <div class="details">
+                    <h4>Shreya Ghoshal Full Bengali Audio Jukebox</h4>
+                    <p>SVF Music</p>
+                    <p>110K views • 4 months ago</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
