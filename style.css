@@ -144,14 +144,14 @@ nav img{
 
 .sidebar{
     /* border: 2px solid red; */
-    width: 18%;
+    width: 15%;
     height: 100vh;
     position: fixed;
     top: 0;
     z-index: 50;
     padding-top: 55px;
     padding-left: 5px;
-    font-size: 60%;
+    font-size: 53%;
 }
 
 .sidebar a img{
@@ -190,7 +190,7 @@ nav img{
 
 .mainContainer{
     /* border: 2px solid red; */
-    margin-left: 18%;
+    margin-left: 10%;
     padding: 2% 3% 2% 3%;
     /* position: relative; */
     /* height: 100vh; */
